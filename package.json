@@ -1,0 +1,37 @@
+{
+  "name": "tyut-cli",
+  "version": "0.1.0",
+  "description": "太原理工大学只读校园查询命令。不保存密码，不提交任何申请。",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ultra9-X3D/tyut-cli.git"
+  },
+  "homepage": "https://github.com/Ultra9-X3D/tyut-cli#readme",
+  "bugs": {
+    "url": "https://github.com/Ultra9-X3D/tyut-cli/issues"
+  },
+  "keywords": [
+    "tyut",
+    "cli",
+    "campus"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "bin": {
+    "tyut": "./src/cli.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "files": [
+    "src",
+    "vendor/des.js",
+    "README.md"
+  ]
+}
